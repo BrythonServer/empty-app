@@ -14,7 +14,7 @@ rectangle = RectangleAsset(500, 500, thinline, blue)
 circle = EllipseAsset(200, 200, thinline, red)
 scircle = EllipseAsset(50, 40, thinline, Color(0x073d91, 1.0))
 mouth = EllipseAsset(100, 30, thinline, Color(0x008000, 1.0))
-mouth2 = EllipseAsset(100, 30, thinline, red))
+mouth2 = EllipseAsset(100, 30, thinline, red)
 # Now display a rectangle
 Sprite(rectangle, (100,50))
 Sprite(circle, (300, 250))
