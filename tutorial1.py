@@ -13,11 +13,12 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(500, 500, thinline, blue)
 circle = EllipseAsset(200, 200, thinline, red)
 scircle = EllipseAsset(50, 40, thinline, Color(0x073d91, 1.0))
+mouth = EllipseAsset(125, 30, thinline, Color(0xfd482f, 1.0))
 # Now display a rectangle
 Sprite(rectangle, (100,50))
 Sprite(circle, (300, 250))
 Sprite(scircle, (240, 200))
 Sprite(scircle, (370, 200))
-ImageAsset(self, a1.mzstatic.com/us/r30/Purple5/v4/5a/2e/e9/5a2ee9b3-8f0e-4f8b-4043-dd3e3ea29766/icon256.png, frame=None, qty=1, direction='horizontal', margin=0)
+
 myapp = App()
 myapp.run()
