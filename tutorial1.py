@@ -16,6 +16,7 @@ circle = CircleAsset(200, thinline, red)
 eyes = EllipseAsset(50, 40, thinline, Color(0x073d91, 1.0))
 mouth = EllipseAsset(100, 50, thinline, Color(0x008000, 1.0))
 mouth2 = EllipseAsset(100, 40, noline, red)
+triangle = PolygonAsset([(270,250), (330,250), (300,220), (270,250)], thinline, black)
 # Now display a rectangle
 Sprite(rectangle, (50,30))
 Sprite(circle, (300, 250))
