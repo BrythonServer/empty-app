@@ -12,7 +12,7 @@ thinline = LineStyle(1, black)
 noline = LineStyle(1, red)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(500, 500, thinline, blue)
-circle = EllipseAsset(200, 200, thinline, red)
+circle = CircleAsset(200, 200, thinline, red)
 scircle = EllipseAsset(50, 40, thinline, Color(0x073d91, 1.0))
 mouth = EllipseAsset(100, 50, thinline, Color(0x008000, 1.0))
 mouth2 = EllipseAsset(100, 40, noline, red)
