@@ -24,6 +24,7 @@ Sprite(eyes, (240, 200))
 Sprite(eyes, (370, 200))
 Sprite(mouth, (300, 320))
 Sprite(mouth2, (300, 305))
+Sprite(triangle, (300, 250))
 
 myapp = App()
 myapp.run()
