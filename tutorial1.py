@@ -19,6 +19,7 @@ mouth = EllipseAsset(100, 50, thinline, Color(0x008000, 1.0))
 mouth2 = EllipseAsset(100, 40, noline, red)
 triangle = PolygonAsset([(270,270), (330,270), (300,250), (270,270)], thinline, black)
 teeth = PolygonAsset([(260,345), (280,345), (270,360), (260,345)], thinline, Color(0xffffff, 1.0))
+teeth = PolygonAsset([(340,345), (320,345), (330,360), (340,345)], thinline, Color(0xffffff, 1.0))
 # Now display a rectangle
 Sprite(rectangle, (50,30))
 Sprite(circle, (300, 250))
