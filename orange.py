@@ -42,7 +42,7 @@ nose = CircleAsset(100, thinline, red)
 
 
 Sprite(head)
-Sprite
+Sprite(nose)
 
 
 myapp = App()
