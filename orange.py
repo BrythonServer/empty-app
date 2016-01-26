@@ -38,12 +38,13 @@ thickline = LineStyle(3, red)
 
 head = RectangleAsset(1000, 500, thickline, blue)
 nose = CircleAsset(100, thinline, red)
-eye1 = PolgyonAsset([(50,50),(50,75),(60,75),(100,50),(100,50)], thinline, green) 
+eye1 = PolygonAsset([(10,0),(60,0),(85,50),(30,75),(40,50)], thinline, green) 
 
 
 
 Sprite(head)
 Sprite(nose, (500, 277))
+Sprite(eye1, (250, 100))
 
 
 
