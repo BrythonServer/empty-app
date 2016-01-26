@@ -40,13 +40,14 @@ head = RectangleAsset(1000, 500, thickline, blue)
 nose = CircleAsset(100, thinline, red)
 eye1 = PolygonAsset([(0,0),(100,0),(125,50),(50,100),(-25,50)], thinline, green) 
 eye2 = PolygonAsset([(0,0),(100,0),(125,50),(50,100),(-25,50)], thinline, green)
-mouth1 = Rectangle(800, 
+mouth1 = RectangleAsset(500,100, thinline, black)
 
 
 Sprite(head)
 Sprite(nose, (500, 277))
 Sprite(eye1, (250, 100))
 Sprite(eye2, (700,100))
+Sprite(mouth1, (500,800))
 
 
 
