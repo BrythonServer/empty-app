@@ -38,11 +38,13 @@ thickline = LineStyle(3, red)
 
 head = RectangleAsset(1000, 500, thickline, blue)
 nose = CircleAsset(100, thinline, red)
+eye1 = PolgyonAsset([(50,50),(50,75),(60,75),(100,50),(100,50)], thinline, green) 
 
 
 
 Sprite(head)
-Sprite(nose)
+Sprite(nose, (500, 277))
+
 
 
 myapp = App()
