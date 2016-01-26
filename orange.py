@@ -38,7 +38,7 @@ thickline = LineStyle(3, red)
 
 head = RectangleAsset(1000, 500, thickline, blue)
 nose = CircleAsset(100, thinline, red)
-eye1 = PolygonAsset([(10,0),(60,0),(85,50),(30,75),(40,50)], thinline, green) 
+eye1 = PolygonAsset([(0,0),(100,0),(125,50),(50,100),(-25,50)], thinline, green) 
 
 
 
