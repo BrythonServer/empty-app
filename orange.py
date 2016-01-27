@@ -35,6 +35,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 aqua = Color(0x00FFFF, 1.0) 
 white = Color(0xFFFFFF, 1.0)
+gold = Color(0xD4AF37, 1.0)
 thinline = LineStyle(1, black)
 thickline = LineStyle(3, red)
 
@@ -48,6 +49,8 @@ tooth1 = EllipseAsset(20,30, thinline, white)
 tooth2 = EllipseAsset(20,30, thinline, white)
 tooth3 = EllipseAsset(20,30, thinline, white)
 tooth4 = EllipseAsset(20,30, thinline, white)
+goldtooth = EllipseAsset(20,30, thinline, gold)
+
 #  
 Sprite(head)
 Sprite(nose, (500, 277))
@@ -59,6 +62,7 @@ Sprite(tooth1, (420, 415))
 Sprite(tooth2, ( 580, 415))
 Sprite(tooth3, ( 460, 415))
 Sprite(tooth4, ( 540, 415))
+Sprite(goldtooth, (500, 415))
 
 
 
