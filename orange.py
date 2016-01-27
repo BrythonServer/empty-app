@@ -33,21 +33,27 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+aqua = Color(0x00FFFF, 1.0) 
+white = Color(
 thinline = LineStyle(1, black)
 thickline = LineStyle(3, red)
 
 head = RectangleAsset(1000, 500, thickline, blue)
-nose = CircleAsset(100, thinline, red)
+nose = CircleAsset(100, thinline, aqua)
 eye1 = PolygonAsset([(0,0),(100,0),(125,50),(50,100),(-25,50)], thinline, green) 
 eye2 = PolygonAsset([(0,0),(100,0),(125,50),(50,100),(-25,50)], thinline, green)
-mouth1 = RectangleAsset(500,100, thinline, black)
+mouth1 = RectangleAsset(500,100, thickline, black)
+dot1 = EllipseAsset(20,20, thinline, red) 
+tooth1 = EllipseAsset(40,60, thinline, white
 
 
 Sprite(head)
 Sprite(nose, (500, 277))
 Sprite(eye1, (250, 100))
 Sprite(eye2, (700,100))
-Sprite(mouth1, (500,800))
+Sprite(mouth1, (250,385))
+Sprite(dot1, (220, 385))
+
 
 
 
