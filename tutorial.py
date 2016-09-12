@@ -18,8 +18,9 @@ rectangle = RectangleAsset(300, 200, thinline, green)
 # Now display a rectangle
 Sprite(rectangle, (100, 150))
 
-poly=PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
-
-sprite(
+poly=PolygonAsset([(100,150), (400,150), (245,50), (100,150)], thinline, red)
+rectangle = RectangleAsset(50, 100, thinline, blue)
+Sprite(rectangle, (300, 250))
+Sprite(poly)
 myapp = App()
 myapp.run()
