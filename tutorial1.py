@@ -14,10 +14,10 @@ white = Color(0xf8f8ff, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-frnt = RectangleAsset(50, 20, thinline, blue)
+frnt = RectangleAsset(200, 80, thinline, black)
 cntr = RectangleAsset(200,80, thinline, white)
 # Now display a rectangle
-Sprite(rectangle, (220,50))
+Sprite(frnt, (500,480))
 Sprite(cntr, (700,480))
 
 myapp = App()
