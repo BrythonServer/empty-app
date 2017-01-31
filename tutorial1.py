@@ -15,7 +15,7 @@ white = Color(0xf8f8ff, 1.0)
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(50, 20, thinline, blue)
-ellipse = RectangleAsset(100,40, thinline, green)
+ellipse = RectangleAsset(200,80, thinline, green)
 # Now display a rectangle
 Sprite(rectangle, (50,50))
 Sprite(rectangle, (600,480))
