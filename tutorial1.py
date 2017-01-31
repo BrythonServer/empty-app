@@ -19,12 +19,15 @@ cntr = RectangleAsset(200,100, thinline, white)
 back = RectangleAsset(200,100, thinline, black)
 toprim = RectangleAsset(200, 100, thinline, white)
 wndw = RectangleAsset(190, 90, thinline, blue)
+alarm = EllipseAsset(25, 25, thinline, red)
+
 # Now display a rectangle
 Sprite(frnt, (500,480))
 Sprite(cntr, (700,480))
 Sprite(back, (900,480))
 Sprite(toprim, (700,380))
 Sprite(wndw, (705, 385))
+Sprite(alarm, (800,25))
 
 myapp = App()
 myapp.run()
