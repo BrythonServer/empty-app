@@ -25,6 +25,7 @@ alarm = EllipseAsset(35, 25, thinline, red)
 crcle = CircleAsset(25, thinline, black)
 star = PolygonAsset([(20,0),(0,34.641),(-20,0)], ylwln, yellow)
 star2 = PolygonAsset([(20,0),(0,-34.641),(-20,0)], ylwln, yellow)
+handle = RectangleAsset(50, 
 # Now display a rectangle
 Sprite(crcle, (600,580))
 Sprite(crcle, (1000,580))
