@@ -25,7 +25,7 @@ alarm = EllipseAsset(35, 25, thinline, red)
 crcle = CircleAsset(25, thinline, black)
 star = PolygonAsset([(20,0),(0,34.641),(-20,0)], ylwln, yellow)
 star2 = PolygonAsset([(20,0),(0,-34.641),(-20,0)], ylwln, yellow)
-handle = RectangleAsset(50, 
+handle = RectangleAsset(50, 25, thinline, black)
 # Now display a rectangle
 Sprite(crcle, (600,580))
 Sprite(crcle, (1000,580))
@@ -37,6 +37,7 @@ Sprite(wndw, (705, 385))
 Sprite(alarm, (800,355))
 Sprite(star, (800, 530))
 Sprite(star2, (800, 548))
+Sprite(handle, (800, 240))
 
 myapp = App()
 myapp.run()
