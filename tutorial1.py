@@ -14,6 +14,7 @@ yellow = Color(0xffff00, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
+ylwln = LineStyle(1, yellow)
 # A graphics asset that represents a rectangle
 frnt = RectangleAsset(200, 100, thinline, black)
 cntr = RectangleAsset(200,100, thinline, white)
@@ -22,8 +23,8 @@ toprim = RectangleAsset(200, 100, thinline, white)
 wndw = RectangleAsset(190, 90, thinline, blue)
 alarm = EllipseAsset(35, 25, thinline, red)
 crcle = CircleAsset(25, thinline, black)
-star = PolygonAsset([(20,0),(0,34.641),(-20,0)], thinline, yellow)
-star2 = PolygonAsset([(20,0),(0,-34.641),(-20,0)], thinline, yellow)
+star = PolygonAsset([(20,0),(0,34.641),(-20,0)], ylwln, yellow)
+star2 = PolygonAsset([(20,0),(0,-34.641),(-20,0)], ylwln, yellow)
 # Now display a rectangle
 Sprite(crcle, (600,580))
 Sprite(crcle, (1000,580))
@@ -34,7 +35,7 @@ Sprite(toprim, (700,380))
 Sprite(wndw, (705, 385))
 Sprite(alarm, (800,355))
 Sprite(star, (800, 530))
-Sprite(star2, (800, 540))
+Sprite(star2, (800, 548))
 
 myapp = App()
 myapp.run()
