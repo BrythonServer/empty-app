@@ -13,5 +13,8 @@ myapp.run()
 Circle = CircleAsset(30, thinline, red)
 Sprite(Circle,(50,50))
 
-Polygon = PolygonAsset (40 ,40 ,thinline,green)
-Sprite(polygon,(30,30))
+Polygon = PolygonAsset ([(0,0),(40,-10),(80,0),(40,50),(0,0)] ,thinline,green)
+Sprite(Polygon,(30,30))
+
+Ellipse = EllipseAsset(40,40, thinline, black)
+Sprite(Ellipse,(40,130))
