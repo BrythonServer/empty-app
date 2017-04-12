@@ -23,7 +23,8 @@ class SpaceGame(App):
         noline = LineStyle(0, black)
         bg_asset = RectangleAsset(SCREEN_WIDTH, SCREEN_HEIGHT, noline, black)
         bg = Sprite(bg_asset, (0,0))
-        SpaceShip((100,100))
+        
 
 myapp = SpaceGame(SCREEN_WIDTH, SCREEN_HEIGHT)
+SpaceShip((100,100))
 myapp.run()
