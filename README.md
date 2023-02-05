@@ -1,2 +1,2 @@
 # empty-app
-Blank repository with an existing ggame subtree. 
+Blank repository with an 
